@@ -8,5 +8,5 @@ export interface IUser {
   displayName?: string
   email: string
   passwordHash?: string
-  role: UserRoleEnum
+  role?: UserRoleEnum
 }
